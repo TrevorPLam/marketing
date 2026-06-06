@@ -1,0 +1,2 @@
+// Typography component exports
+export {};
