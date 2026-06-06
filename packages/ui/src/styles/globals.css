@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Color Palette - Blue */
+    --color-primary-50: #eff6ff;
+    --color-primary-100: #dbeafe;
+    --color-primary-200: #bfdbfe;
+    --color-primary-300: #93c5fd;
+    --color-primary-400: #60a5fa;
+    --color-primary-500: #3b82f6;
+    --color-primary-600: #2563eb;
+    --color-primary-700: #1d4ed8;
+    --color-primary-800: #1e40af;
+    --color-primary-900: #1e3a8a;
+    --color-primary-950: #172554;
+
+    /* Secondary Color Palette - Purple */
+    --color-secondary-50: #faf5ff;
+    --color-secondary-100: #f3e8ff;
+    --color-secondary-200: #e9d5ff;
+    --color-secondary-300: #d8b4fe;
+    --color-secondary-400: #c084fc;
+    --color-secondary-500: #a855f7;
+    --color-secondary-600: #9333ea;
+    --color-secondary-700: #7e22ce;
+    --color-secondary-800: #6b21a8;
+    --color-secondary-900: #581c87;
+    --color-secondary-950: #3b0764;
+
+    /* Neutral Color Palette - Gray */
+    --color-neutral-50: #fafafa;
+    --color-neutral-100: #f4f4f5;
+    --color-neutral-200: #e4e4e7;
+    --color-neutral-300: #d4d4d8;
+    --color-neutral-400: #a1a1aa;
+    --color-neutral-500: #71717a;
+    --color-neutral-600: #52525b;
+    --color-neutral-700: #3f3f46;
+    --color-neutral-800: #27272a;
+    --color-neutral-900: #18181b;
+    --color-neutral-950: #09090b;
+
+    /* Spacing Scale - 8pt Grid System */
+    --spacing-0-5: 0.125rem;  /* 2px */
+    --spacing-1: 0.25rem;     /* 4px */
+    --spacing-1-5: 0.375rem;  /* 6px */
+    --spacing-2: 0.5rem;      /* 8px */
+    --spacing-2-5: 0.625rem;  /* 10px */
+    --spacing-3: 0.75rem;     /* 12px */
+    --spacing-3-5: 0.875rem;  /* 14px */
+    --spacing-4: 1rem;        /* 16px */
+    --spacing-5: 1.25rem;     /* 20px */
+    --spacing-6: 1.5rem;      /* 24px */
+    --spacing-7: 1.75rem;     /* 28px */
+    --spacing-8: 2rem;        /* 32px */
+    --spacing-9: 2.25rem;     /* 36px */
+    --spacing-10: 2.5rem;     /* 40px */
+    --spacing-11: 2.75rem;    /* 44px */
+    --spacing-12: 3rem;       /* 48px */
+    --spacing-14: 3.5rem;     /* 56px */
+    --spacing-16: 4rem;       /* 64px */
+    --spacing-20: 5rem;       /* 80px */
+    --spacing-24: 6rem;       /* 96px */
+    --spacing-28: 7rem;       /* 112px */
+    --spacing-32: 8rem;       /* 128px */
+    --spacing-36: 9rem;       /* 144px */
+    --spacing-40: 10rem;      /* 160px */
+    --spacing-44: 11rem;      /* 176px */
+    --spacing-48: 12rem;      /* 192px */
+    --spacing-52: 13rem;      /* 208px */
+    --spacing-56: 14rem;      /* 224px */
+    --spacing-60: 15rem;      /* 240px */
+    --spacing-64: 16rem;      /* 256px */
+    --spacing-72: 18rem;      /* 288px */
+    --spacing-80: 20rem;      /* 320px */
+    --spacing-96: 24rem;      /* 384px */
+
+    /* Typography Scale - Relative Units */
+    --font-size-xs: 0.75rem;   /* 12px */
+    --line-height-xs: 1rem;
+    --font-size-sm: 0.875rem;  /* 14px */
+    --line-height-sm: 1.25rem;
+    --font-size-base: 1rem;    /* 16px */
+    --line-height-base: 1.5rem;
+    --font-size-lg: 1.125rem;  /* 18px */
+    --line-height-lg: 1.75rem;
+    --font-size-xl: 1.25rem;   /* 20px */
+    --line-height-xl: 1.75rem;
+    --font-size-2xl: 1.5rem;   /* 24px */
+    --line-height-2xl: 2rem;
+    --font-size-3xl: 1.875rem; /* 30px */
+    --line-height-3xl: 2.25rem;
+    --font-size-4xl: 2.25rem;  /* 36px */
+    --line-height-4xl: 2.5rem;
+    --font-size-5xl: 3rem;     /* 48px */
+    --line-height-5xl: 1;
+    --font-size-6xl: 3.75rem;  /* 60px */
+    --line-height-6xl: 1;
+
+    /* Border Radius Tokens */
+    --radius-sm: 0.125rem;    /* 2px */
+    --radius-base: 0.25rem;    /* 4px */
+    --radius-md: 0.375rem;     /* 6px */
+    --radius-lg: 0.5rem;       /* 8px */
+    --radius-xl: 0.75rem;      /* 12px */
+    --radius-2xl: 1rem;        /* 16px */
+    --radius-3xl: 1.5rem;      /* 24px */
+
+    /* Shadow Scale */
+    --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-base: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --shadow-2xl: 0 50px 100px -20px rgb(0 0 0 / 0.25);
+    --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-neutral-200;
+  }
+  
+  body {
+    @apply bg-neutral-50 text-neutral-900 antialiased;
+  }
+}
