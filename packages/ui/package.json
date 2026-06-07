@@ -20,6 +20,11 @@
       "types": "./src/components/input/index.ts",
       "import": "./src/components/input/index.ts",
       "require": "./src/components/input/index.ts"
+    },
+    "./navigation": {
+      "types": "./src/components/navigation/index.ts",
+      "import": "./src/components/navigation/index.ts",
+      "require": "./src/components/navigation/index.ts"
     }
   },
   "sideEffects": false,
@@ -76,6 +81,7 @@
     ]
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
