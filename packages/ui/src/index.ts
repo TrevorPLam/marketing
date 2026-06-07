@@ -1,5 +1,6 @@
 // Shared UI components
 export * from './components/button';
+export * from './components/input';
 export * from './components/navigation';
 export * from './components/forms';
 export * from './components/layout';

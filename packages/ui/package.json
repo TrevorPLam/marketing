@@ -15,6 +15,11 @@
       "types": "./src/components/button/index.ts",
       "import": "./src/components/button/index.ts",
       "require": "./src/components/button/index.ts"
+    },
+    "./input": {
+      "types": "./src/components/input/index.ts",
+      "import": "./src/components/input/index.ts",
+      "require": "./src/components/input/index.ts"
     }
   },
   "sideEffects": false,
