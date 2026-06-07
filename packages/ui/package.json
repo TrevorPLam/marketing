@@ -25,6 +25,11 @@
       "types": "./src/components/navigation/index.ts",
       "import": "./src/components/navigation/index.ts",
       "require": "./src/components/navigation/index.ts"
+    },
+    "./footer": {
+      "types": "./src/components/footer/index.ts",
+      "import": "./src/components/footer/index.ts",
+      "require": "./src/components/footer/index.ts"
     }
   },
   "sideEffects": false,
