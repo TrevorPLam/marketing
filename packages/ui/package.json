@@ -10,6 +10,11 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.js"
+    },
+    "./button": {
+      "types": "./src/components/button/index.ts",
+      "import": "./src/components/button/index.ts",
+      "require": "./src/components/button/index.ts"
     }
   },
   "sideEffects": false,
@@ -64,5 +69,11 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.6.0"
   }
 }

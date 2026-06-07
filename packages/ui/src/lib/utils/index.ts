@@ -1,2 +1,1 @@
-// Utility functions exports
-export {};
+export { cn } from './cn';
